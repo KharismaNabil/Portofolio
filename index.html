@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Porofolio</title>
+</head>
+<body>
+   <!-- navbar start -->
+ <header class="bg-transparent absolute top-0 left-0 w-full flex items-center justify-center z-10">
+    <div class="container">
+       <div class="flex items-center justify-between relative">
+         <div class="px-10">
+            <a href="#home" class="font-bold text-lg text-primay block py-6">Kharismanbl</a>
+         </div>
+         <div class="flex items-center px-10">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+               <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+               <span class="hamburger-line transition duration-300 ease-in-out "></span>
+               <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+               <ul class="block lg:flex">
+                  <li class="group py-2">
+                     <a href="#about" class="text-base text-dark py-2 mx-8 group-hover:text-primay">Beranda</a>
+                  </li>
+                  <li class="group py-2">
+                     <a href="#portofolio" class="text-base text-dark py-2 mx-8 group-hover:text-primay">Portofolio</a>
+                  </li>
+                  <li class="group py-2">
+                     <a href="#Contanctme" class="text-base text-dark py-2 mx-8 group-hover:text-primay">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+
+         </div>
+       </div>
+    </div>
+ </header>
+ <!-- navbar End -->
+
+<!-- Banner Start -->
+<section id="home" class="pt-20">
+   <div class="container">
+      <div class="flex flex-wrap">
+         <div class="w-full self-center px-4">
+            <h1 class="text-base font-semibold">Supp 👋 ,i'am <span class="block font-bold text-primay text-4xl"> Kharisma Nabil</span> </h1>
+            <h2>i'm a Frontend Engeneer and UI/UX Desingner</h2>
+            <p>I am currently studying computer science. In the world of development, I focus more on front-end engineering and I also like designing digital products</p>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- Banner End -->
+
+ <script src="dist/script.js"></script>
+</body>
+</html>
